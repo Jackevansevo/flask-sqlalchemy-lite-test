@@ -1,0 +1,17 @@
+[project]
+name = "flaskstuff"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.0",
+    "flask-sqlalchemy-lite>=0.1.0",
+    "psycopg>=3.2.6",
+    "sqlalchemy-utils>=0.41.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
